@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context="com.example.mohamedabdelaziz.batteyapp.Details">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:background="#11F"
+        android:layout_height="56dp">
+        <ImageButton
+            android:src="@drawable/back"
+            android:layout_width="56dp"
+            android:background="#11F"
+            android:onClick="back"
+            android:layout_height="56dp" />
+        <TextView
+            android:text="@string/details"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_marginLeft="56dp"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+    </FrameLayout>
+    <CheckBox
+        android:text="Keep Running In Background"
+        android:id="@+id/run_background"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textcolor"
+        android:contentDescription="safhsfahsfahsfahshfa"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:onClick="allowbackground"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:textAlignment="textStart"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/app_icon"
+        android:textColor="@color/textcolor"
+        android:textSize="16dp"
+        android:id="@+id/app_name"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_below="@+id/app_name"
+            android:layout_width="match_parent"
+            android:layout_toEndOf="@+id/app_icon"
+            android:textColor="@color/textcolor"
+            android:textSize="16dp"
+            android:textAlignment="textStart"
+            android:layout_marginTop="10dp"
+            android:id="@+id/app_package"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:text="@string/goapp"
+        android:id="@+id/goapp"
+        android:elevation="20dp"
+        android:layout_marginTop="30dp"
+        android:onClick="gotoapp"
+        android:layout_width="150dp"
+        android:layout_height="70dp" />
+
+
+</LinearLayout>

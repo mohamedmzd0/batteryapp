@@ -1,0 +1,13 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7B5037"
+    tools:context="com.example.mohamedabdelaziz.batteyapp.SlpashPage">
+<ImageView
+    android:layout_gravity="center"
+    android:src="@drawable/unnamed"
+    android:layout_width="100dp"
+    android:layout_height="100dp" />
+
+</FrameLayout>

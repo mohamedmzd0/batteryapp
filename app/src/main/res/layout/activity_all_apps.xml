@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_all_apps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFF"
+    android:orientation="vertical"
+    tools:context="com.example.mohamedabdelaziz.batteyapp.AllApps">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:background="#11F"
+        android:layout_height="56dp">
+        <ImageButton
+            android:src="@drawable/back"
+            android:layout_width="56dp"
+            android:background="#11F"
+            android:onClick="back"
+            android:layout_height="56dp" />
+        <TextView
+            android:text="@string/apps"
+            android:textColor="#FFF"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:layout_marginLeft="56dp"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclerview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+    </LinearLayout>

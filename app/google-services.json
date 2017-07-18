@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "368977783802",
+    "firebase_url": "https://project-687be.firebaseio.com",
+    "project_id": "project-687be",
+    "storage_bucket": "project-687be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368977783802:android:ce0422bbffeb0966",
+        "android_client_info": {
+          "package_name": "com.example.mohamedabdelaziz.batteyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368977783802-uvag82b0lkngnta2d4nsolfffilq5ts4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq7pxK2Zph8W-rU1TA-QMPSz5dyTjlNDM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

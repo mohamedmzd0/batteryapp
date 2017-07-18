@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BatteyApp</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="optimized_apps">Optimized Apps</string>
+    <string name="title_activity_details">Details</string>
+    <string name="apps">All Apps</string>
+    <string name="details">Details</string>
+    <string name="uninstall">uninstall</string>
+    <string name="goapp">Go To App</string>
+    <string name="optimized">Already Optimized To The Best</string>
+    <string name="ad_mob">ca-app-pub-5283911686334970~2859826246</string>
+    <string name="description">بص التطبيق بيقفل التطبيقات التانيه اول مانت تقفل النت
+او الرام تتملي او البطايه ضعبفه او بتشحن
+او تطفي الفون ودا طبعا لوخده
+مش نصب علي  فكره اعمل optimize من التطبيق وشوف الtask manager بتاع الفون هتلاقي التطبيقات مفيش بروسيس</string>
+</resources>
